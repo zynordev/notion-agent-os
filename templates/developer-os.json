@@ -1,0 +1,59 @@
+{
+  "name": "developer-os",
+  "hub": {
+    "title": "Developer OS",
+    "icon": "⚡",
+    "intro_markdown": "## Today\n- [ ] Triage GitHub issues & PRs\n- [ ] Review sprint priorities\n- [ ] Log daily engineering progress\n"
+  },
+  "calendar_db": {
+    "title": "Schedule & Releases",
+    "icon": "📅"
+  },
+  "default_entity_subpages": [
+    {
+      "title": "Info",
+      "icon": "📋",
+      "markdown": "## Specs\n- Repo URL:\n- Stack:\n- Status: Active\n"
+    },
+    {
+      "title": "Notes",
+      "icon": "✍️",
+      "markdown": "## Engineering Log\n- [ ] Set up CI\n"
+    }
+  ],
+  "categories": [
+    {
+      "key": "projects",
+      "title": "Active Repositories",
+      "icon": "📦",
+      "entities": [
+        { "title": "Core Product", "icon": "🚀" },
+        { "title": "Open Source Tooling", "icon": "🛠️" }
+      ]
+    },
+    {
+      "key": "architecture",
+      "title": "Architecture & RFCs",
+      "icon": "🏛️",
+      "entities": [
+        { "title": "System Design Docs", "icon": "📐" }
+      ]
+    },
+    {
+      "key": "clients",
+      "title": "Clients & Consulting",
+      "icon": "💼",
+      "entities": [
+        { "title": "Lead Pipeline", "icon": "📊" }
+      ]
+    },
+    {
+      "key": "learning",
+      "title": "Learning & Reading",
+      "icon": "📚",
+      "entities": [
+        { "title": "Papers & Technical Notes", "icon": "📝" }
+      ]
+    }
+  ]
+}

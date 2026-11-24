@@ -1,0 +1,94 @@
+{
+  "name": "student-life-os",
+  "hub": {
+    "title": "Life OS — Command Center",
+    "icon": "🧠",
+    "intro_markdown": "## Daily Focus\n- [ ] Review upcoming deadlines and calendar events\n- [ ] Check research & project action items\n- [ ] Complete daily study / practice blocks\n---\n## Architecture\nEvery entity under the categories below follows a standardized two-layer layout: **Info** (metadata, contacts, status) and **Notes** (running logs, tasks, meeting notes)."
+  },
+  "calendar_db": {
+    "title": "Calendar & Events",
+    "icon": "📅"
+  },
+  "default_entity_subpages": [
+    {
+      "title": "Info",
+      "icon": "📋",
+      "markdown": "## Metadata\n- Status: Active\n- Owner / Instructor:\n- Key Links:\n"
+    },
+    {
+      "title": "Notes",
+      "icon": "✍️",
+      "markdown": "## Action Items\n- [ ] Add initial notes\n\n## Log\n"
+    }
+  ],
+  "categories": [
+    {
+      "key": "academics",
+      "title": "Academics & Courses",
+      "icon": "🎓",
+      "intro_markdown": "Track courses, exam dates, syllabi, and weekly assignments.",
+      "entities": [
+        { "title": "Mathematics", "icon": "📐" },
+        { "title": "Physics", "icon": "⚛️" },
+        { "title": "Computer Science", "icon": "💻" }
+      ]
+    },
+    {
+      "key": "research",
+      "title": "Research & Engineering Projects",
+      "icon": "🚀",
+      "intro_markdown": "Long-term research papers, competitions, and hardware/software prototypes.",
+      "entities": [
+        {
+          "title": "Flagship Research Project",
+          "icon": "🔬",
+          "subpages": [
+            { "title": "Overview", "icon": "📚", "markdown": "## Abstract & Goals\n" },
+            { "title": "Experiments", "icon": "🧪", "markdown": "## Benchmark Log\n" },
+            { "title": "Decisions", "icon": "🧭", "markdown": "## Architecture Decisions\n" },
+            { "title": "Notes", "icon": "✍️", "markdown": "## Next Steps\n- [ ] Define milestones\n" }
+          ]
+        },
+        { "title": "Robotics / Hardware Team", "icon": "🤖" }
+      ]
+    },
+    {
+      "key": "organizations",
+      "title": "Clubs & Organizations",
+      "icon": "🌍",
+      "intro_markdown": "Conferences, student committees, and community leadership roles.",
+      "entities": [
+        { "title": "Annual Conference IT Team", "icon": "🌐" },
+        { "title": "Student Leadership Club", "icon": "🤝" }
+      ]
+    },
+    {
+      "key": "crm",
+      "title": "Freelance & Product CRM",
+      "icon": "💼",
+      "intro_markdown": "Client leads, deliverables, portfolio sites, and product backlog.",
+      "entities": [
+        { "title": "Active Client Leads", "icon": "📈" },
+        { "title": "Portfolio & Website", "icon": "🌍" }
+      ]
+    },
+    {
+      "key": "hobbies",
+      "title": "Music & Personal Practice",
+      "icon": "🎹",
+      "intro_markdown": "Daily practice routines, repertoire, and creative side projects.",
+      "entities": [
+        { "title": "Weekly Practice Log", "icon": "🎵" }
+      ]
+    },
+    {
+      "key": "network",
+      "title": "People & Network",
+      "icon": "👥",
+      "intro_markdown": "Mentors, collaborators, teammates, and shared context.",
+      "entities": [
+        { "title": "Mentors & Advisors", "icon": "🧑‍🏫" }
+      ]
+    }
+  ]
+}
