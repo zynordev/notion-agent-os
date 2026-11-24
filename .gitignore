@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.pytest_cache/
+
+# Secrets & local workspace state (NEVER commit!)
+.env
+.env.*
+.notion-os.json
+token
+*.token
+*.key
+*.ics
+
+# Exports & temporary outputs
+exports/
+*.log
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
